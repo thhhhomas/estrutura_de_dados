@@ -5,7 +5,6 @@ class Node:
         self.data: Any = data
         self.next: Optional["Node"] = None
 
-
 class Stack:
     def __init__(self):
         self.top: Optional["Node"] = None
