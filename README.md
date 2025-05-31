@@ -1,6 +1,6 @@
 # Estudo de Estruturas de Dados em Python
 
-Este repositório foi criado para alocar minhas implementações e anotações sobre estruturas de dados em Python, é o resultado do meu processo de aprendizado. A ideia é regitrar o progresso criando cada estrutura do zero.
+Este repositório foi criado para alocar minhas implementações e anotações sobre estruturas de dados em Python. É o resultado do meu processo de aprendizado. A ideia é regitrar o progresso criando cada estrutura do zero.
 
 ## Estruturas já implementadas
 
