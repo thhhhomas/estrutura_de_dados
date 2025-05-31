@@ -13,3 +13,20 @@ Este repositório foi criado para alocar minhas implementações e anotações s
 - [ ] Heaps
 
 Conforme meus estudos evoluam, irei adicionar mais itens nessa lista de estruturas.
+
+*English*
+# Data Structures Study in Python
+
+This repository was created to store my implementations and notes on data structures in Python. It reflects my learning process. The idea is to document my progress by building each structure from scratch.
+
+## Structures already implemented
+
+- [X] Stack
+- [ ] Queue
+- [ ] Linked List
+- [ ] Trees
+- [ ] Graphs
+- [ ] Hash Tables
+- [ ] Heaps
+
+As my studies progress, I will add more items to this list.
