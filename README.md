@@ -14,7 +14,8 @@ Este repositório foi criado para alocar minhas implementações e anotações s
 
 Conforme meus estudos evoluam, irei adicionar mais itens nessa lista de estruturas.
 
-    
+---
+
 *(English)*
 # Data Structures Study in Python
 
