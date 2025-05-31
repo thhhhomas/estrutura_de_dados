@@ -14,12 +14,13 @@ Este repositório foi criado para alocar minhas implementações e anotações s
 
 Conforme meus estudos evoluam, irei adicionar mais itens nessa lista de estruturas.
 
+
 *English*
 # Data Structures Study in Python
 
 This repository was created to store my implementations and notes on data structures in Python. It reflects my learning process. The idea is to document my progress by building each structure from scratch.
 
-## Structures already implemented
+## Structures implemented
 
 - [X] Stack
 - [ ] Queue
