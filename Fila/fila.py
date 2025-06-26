@@ -3,7 +3,7 @@ from typing import Optional
 class Item(object):
     def __init__(self, conteudo: Optional[int] = None):
         self.conteudo = conteudo
-        self.prox = None
+        self.prox: Optional["Item"] = None
 
 class Fila(object):
     def __init__(self):
@@ -33,9 +33,7 @@ class Fila(object):
                 return cont
 
     def empty(self) -> bool:
-        if not self.inicio.conteudo:
-            return True
-        return False
+        return self.inicio.conteudo is None
 
     def print_fila(self) -> None:
         if self.empty():
