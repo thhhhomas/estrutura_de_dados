@@ -5,7 +5,7 @@ Este repositório foi criado para alocar minhas implementações e anotações s
 ## Estruturas já implementadas
 
 - [X] Pilha (Stack)
-- [ ] Fila (Queue)
+- [X] Fila (Queue)
 - [ ] Lista Encadeada (Linked List)
 - [ ] Árvores (Trees)
 - [ ] Grafos (Graphs)
@@ -24,7 +24,7 @@ This repository was created to store my implementations and notes on data struct
 ## Structures implemented
 
 - [X] Stack
-- [ ] Queue
+- [X] Queue
 - [ ] Linked List
 - [ ] Trees
 - [ ] Graphs
