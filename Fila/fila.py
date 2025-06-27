@@ -9,7 +9,7 @@ class Fila(object):
     def __init__(self):
         self.inicio = Item()
     
-    def enqueue(self, conteudo: int) -> None:
+    def insert(self, conteudo: int) -> None:
         item = self.inicio
         while(True):
             if self.empty():
@@ -49,7 +49,7 @@ class Fila(object):
             item = item.prox
         print(retorno)
             
-    def dequeue(self) -> Optional[int]:
+    def remove(self) -> Optional[int]:
         if self.empty():
             print("Fila vazia")
             return None
@@ -62,23 +62,23 @@ def main():
     
     print(f"Fila vazia: {fila.empty()}")
 
-    fila.enqueue(1)
-    fila.enqueue(2)
-    fila.enqueue(3)
+    fila.insert(1)
+    fila.insert(2)
+    fila.insert(3)
 
     print(f"Fila vazia: {fila.empty()}")
 
     print(f"Fila:")
     fila.print_fila()
 
-    fila.enqueue(fila.dequeue())
+    fila.insert(fila.remove())
 
     print(f"Fila:")
     fila.print_fila()
 
     print(f"Tamanho da fila: {fila.tam()}")
 
-    print(f"Item removido: {fila.dequeue()}")
+    print(f"Item removido: {fila.remove()}")
 
     print(f"Tamanho da fila: {fila.tam()}")
 
